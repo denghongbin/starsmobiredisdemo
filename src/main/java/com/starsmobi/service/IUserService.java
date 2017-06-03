@@ -8,4 +8,6 @@ import com.starsmobi.model.UserModel;
 public interface IUserService {
 
     public void createUser(UserModel userModel);
+
+    public long getDistanceDays(String timeOne, String timeTwo) throws Exception;
 }
